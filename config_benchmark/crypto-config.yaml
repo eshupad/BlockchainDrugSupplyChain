@@ -1,0 +1,256 @@
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# ---------------------------------------------------------------------------
+# "OrdererOrgs" - Definition of organizations managing orderer nodes
+# ---------------------------------------------------------------------------
+OrdererOrgs:
+  # ---------------------------------------------------------------------------
+  # Orderer
+  # ---------------------------------------------------------------------------
+  - Name: Orderer
+    Domain: example.com
+    # ---------------------------------------------------------------------------
+    # "Specs" - See PeerOrgs below for complete description
+    # ---------------------------------------------------------------------------
+    Specs:
+      - Hostname: orderer
+# ---------------------------------------------------------------------------
+# "PeerOrgs" - Definition of organizations managing peer nodes
+# ---------------------------------------------------------------------------
+PeerOrgs:
+  # ---------------------------------------------------------------------------
+  # Org1
+  # ---------------------------------------------------------------------------
+  - Name: Org1
+    Domain: org1.example.com    
+    Template:
+      Count: 3     
+    Users:
+      Count: 1
+  # ---------------------------------------------------------------------------
+  # Org2: See "Org1" for full specification
+  # ---------------------------------------------------------------------------
+  - Name: Org2
+    Domain: org2.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  # ---------------------------------------------------------------------------
+  # Org3: See "Org1" for full specification
+  # ---------------------------------------------------------------------------
+  - Name: Org3
+    Domain: org3.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org4
+    Domain: org4.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org5
+    Domain: org5.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org6
+    Domain: org6.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org7
+    Domain: org7.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org8
+    Domain: org8.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org9
+    Domain: org9.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org10
+    Domain: org10.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org11
+    Domain: org11.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org12
+    Domain: org12.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org13
+    Domain: org13.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org14
+    Domain: org14.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org15
+    Domain: org15.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org16
+    Domain: org16.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org17
+    Domain: org17.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org18
+    Domain: org18.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org19
+    Domain: org19.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org20
+    Domain: org20.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org21
+    Domain: org21.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org22
+    Domain: org22.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org23
+    Domain: org23.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org24
+    Domain: org24.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org25
+    Domain: org25.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org26
+    Domain: org26.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org27
+    Domain: org27.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org28
+    Domain: org28.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org29
+    Domain: org29.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org30
+    Domain: org30.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
+
+  - Name: Org31
+    Domain: org31.example.com
+    Template:
+      Count: 3
+    Users:
+      Count: 1
