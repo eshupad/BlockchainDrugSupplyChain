@@ -29,10 +29,19 @@ composer network ping --card admin@mt
 
 composer-rest-server
 
-cd DrugTrack
+# Generating and Running Angular Application
+
+yo hyperledger-composer
+
+A folder with the name of the application is created. Navigate to that folder and run the following command:
 
 npm run
 
+
+
 REST Server hosted on localhost:3000
+
 Angular App hosted on localhost:4200
+
+
 
